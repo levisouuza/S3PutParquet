@@ -2,7 +2,7 @@
 
 O [S3PutParquet](https://github.com/levisouuza/S3PutParquet/blob/master/main.py) é um script que realiza um processo de transformação em arquivos .csv para .parquet oriundo de um get de um bucket S3 e re-inserindo-o como parquet.
 
-Arquivos em formato parquet apresentam dados em estrutura colunar possibilitando otimização nas consultas e redução no custo de armazenamento. 
+Arquivos em formato [parquet](https://databricks.com/glossary/what-is-parquet) apresentam dados em estrutura colunar possibilitando otimização nas consultas e redução no custo de armazenamento. 
 
 As libs principais utilizadas foram pandas, para transformação e boto3, para manipulação no S3 . 
 
