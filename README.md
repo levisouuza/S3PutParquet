@@ -5,3 +5,7 @@ O [S3PutParquet](https://github.com/levisouuza/S3PutParquet/blob/master/main.py)
 As libs principais utilizadas foram pandas, para transformação e boto3, para manipulação no S3 . 
 
 Um ponto de atenção é que a transformação é realizada na memória, logo, para casos de arquivos com tamanho relevante, tal processo seria mais eficiente utilizando o Apache Spark, por exemplo. 
+
+O resultado da execução do script está logo abaixo:
+
+![comparacao](https://github.com/levisouuza/S3PutParquet/blob/master/comparacao_csv_parquet.png)
